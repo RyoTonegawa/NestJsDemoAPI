@@ -3,7 +3,7 @@ import { CalculateTaxService } from '../../application/calculateTax.service';
 import { RequestParam } from '../dto/requestParamDto';
 
 // エンドポイント情報
-@Controller('/calculateTaxService')
+@Controller('/calculateTax')
 export class CalculateTaxController {
   constructor(private readonly appService: CalculateTaxService) {}
 

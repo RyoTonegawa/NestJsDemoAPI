@@ -1,13 +1,13 @@
-# 下記2つのエンドポイントを実装
+### 下記2つのエンドポイントを実装
 
 <http://localhost:3000/calculateTaxService>
 <http://localhost:3000/optionRestrictCheck>
 
-# リクエストボディはともに下記で共通。
-# パラメタとして送った文字列に各サービスの名前を連結して返却。
+### リクエストボディはともに下記で共通。
+#### パラメタとして送った文字列に各サービスの名前を連結して返却。
 {"testparam": "this is request"}
 
-# 文字列以外は下記のバリデーションが働く
+### 文字列以外は下記のバリデーションが働く
 
 {
 "message":[
@@ -16,11 +16,11 @@
 "error": "Bad Request",
 "statusCode": 400
 }
-# 下記コマンドで実行
+### 下記コマンドで実行
 nest build 
 npm run start
 
-# 下記はメモ。
+### 下記はメモ。
 それぞれをモジュールとしてまとめ別のディレクトリに実装
 →optionRestrictCheckをメインに実装
 

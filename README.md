@@ -1,6 +1,6 @@
 ### 下記2つのエンドポイントを実装
 
-<http://localhost:3000/calculateTaxService>
+<http://localhost:3000/calculateTax>
 <http://localhost:3000/optionRestrictCheck>
 
 ### リクエストボディはともに下記で共通。

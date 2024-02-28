@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { AppController } from './optionRestRictCheck/controller/app.controller';
+import { AppController } from './optionRestRictCheck/presentation/controller/app.controller';
 import { AppService } from './optionRestRictCheck/application/optionRestrictCheck.service';
 
 describe('AppController', () => {

@@ -4,6 +4,7 @@ import { RequestParam } from '../presentation/dto/requestParamDto';
 @Injectable()
 export class CalculateTaxService {
   async optionRestrictCheck(requestParam: RequestParam): Promise<string> {
-    return requestParam.testparam;
+    const returnparam: string = requestParam.testparam + ' calculateTax';
+    return returnparam;
   }
 }

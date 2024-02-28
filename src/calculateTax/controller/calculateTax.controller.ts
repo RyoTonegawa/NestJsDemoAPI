@@ -1,12 +1,11 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { OptionRestRictCheckService } from '../application/calculateTax.service';
-// import { Message } from './message.entity';
+import { CalculateTaxService } from '../application/calculateTax.service';
 import { RequestParam } from '../presentation/dto/requestParamDto';
 
 // エンドポイント情報
-@Controller('/optionRestrictCheck')
+@Controller('/calculateTaxService')
 export class CalculateTaxController {
-  constructor(private readonly appService: OptionRestRictCheckService) {}
+  constructor(private readonly appService: CalculateTaxService) {}
 
   @Post()
   async getHello(@Body() body: RequestParam): Promise<string> {

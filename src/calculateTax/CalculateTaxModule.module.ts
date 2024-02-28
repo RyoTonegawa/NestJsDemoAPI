@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { CalculateTaxController } from './controller/calculateTax.controller';
+import { CalculateTaxController } from './presentation/controller/calculateTax.controller';
 import { CalculateTaxService } from './application/calculateTax.service';
 
 // API単位に作成

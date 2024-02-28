@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { CalculateTaxService } from '../application/calculateTax.service';
-import { RequestParam } from '../presentation/dto/requestParamDto';
+import { CalculateTaxService } from '../../application/calculateTax.service';
+import { RequestParam } from '../dto/requestParamDto';
 
 // エンドポイント情報
 @Controller('/calculateTaxService')
